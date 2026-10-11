@@ -1,7 +1,7 @@
 # Polymetrics with TopDiG boundary metrics
 
 Drop-in updates to the supplied Polymetrics 0.2.2 source files. This integrates
-`metrics_updated.py`'s PoLiS calculations into `polymetrics/metrics.py`, adds
+PoLiS calculations into `polymetrics/metrics.py`, adds
 TopDiG/Pix2Poly-style building-boundary pixel scores, and exposes both through
 `evaluate()` and the command-line tool.
 
@@ -11,7 +11,7 @@ annotation behavior remain in place. No road metrics are included.
 
 ## Standalone installation (keeps the original package unchanged)
 
-This ZIP is a self-contained *development copy* with packaging metadata. It
+This package is a self-contained *development copy* with packaging metadata. It
 should be extracted into a separate directory, not over your old package.
 Run the following commands from the extracted directory. On Windows PowerShell:
 
